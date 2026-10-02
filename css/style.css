@@ -74,12 +74,11 @@ img { display: block; max-width: 100%; }
 .keywords li { border: 1px solid var(--ink); padding: 6px 14px; font-size: 14px; border-radius: 999px; }
 .keywords li span { font-family: var(--mono); font-size: 11px; color: var(--accent); margin-right: 6px; }
 
-/* 인물 사진: 액자형, 아래 도어 줄 위에 서도록 하단 정렬 */
+/* 배경을 지운 흑백 인물: 아래 도어 줄 위에 서도록 하단 정렬 */
 .cutout { display: flex; justify-content: center; align-self: end; }
 .cutout img {
-  width: auto; height: min(60vh, 540px); max-width: 100%;
-  object-fit: cover; object-position: center top;
-  border: 1px solid var(--ink);
+  width: auto; height: min(62vh, 580px); max-width: 100%;
+  object-fit: contain; object-position: bottom;
 }
 
 /* 하단 도어 네비 */
